@@ -3,8 +3,14 @@
 
 using namespace std;
 
-#include "registry.h"
-
 #include <iostream>
+#include <direct.h>
+
+#include "registry.h"
+#include "mft.h"
+#include "prefetch.h"
+#include "browser.h"
+#include "evtlog.h"
+#include "etc.h"
 
 #endif //ARTIFACTS_H

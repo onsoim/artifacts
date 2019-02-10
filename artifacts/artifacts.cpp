@@ -6,4 +6,13 @@ int main()
 		cout << "make output folder : onsoim" << endl;
 	}
 	getRegistry();
+	getMFT();
+	// getPrefetch();
+	getIE();
+	getFirefox();
+	getChrome();
+	// getEvtlog();
+	getEtc();
+
+	return 0;
 }

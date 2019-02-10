@@ -154,10 +154,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="artifacts.h" />
+    <ClInclude Include="etc.h" />
+    <ClInclude Include="evtlog.h" />
+    <ClInclude Include="mft.h" />
+    <ClInclude Include="browser.h" />
+    <ClInclude Include="prefetch.h" />
     <ClInclude Include="registry.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="artifacts.cpp" />
+    <ClCompile Include="browser.cpp" />
+    <ClCompile Include="etc.cpp" />
+    <ClCompile Include="evtlog.cpp" />
+    <ClCompile Include="mft.cpp" />
+    <ClCompile Include="prefetch.cpp" />
     <ClCompile Include="registry.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
