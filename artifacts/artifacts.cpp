@@ -2,6 +2,8 @@
 
 int main()
 {
-	std::cout << "Hello World!\n";
-	std::cout << "test!\n";
+	if(!_mkdir("./onsoim")) {
+		cout << "make output folder : onsoim" << endl;
+	}
+	getRegistry();
 }
