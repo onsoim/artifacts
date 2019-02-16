@@ -92,6 +92,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -116,7 +117,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -124,7 +125,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -156,6 +159,8 @@
     <ClInclude Include="artifacts.h" />
     <ClInclude Include="etc.h" />
     <ClInclude Include="evtlog.h" />
+    <ClInclude Include="files.h" />
+    <ClInclude Include="memory.h" />
     <ClInclude Include="mft.h" />
     <ClInclude Include="browser.h" />
     <ClInclude Include="prefetch.h" />
@@ -166,6 +171,8 @@
     <ClCompile Include="browser.cpp" />
     <ClCompile Include="etc.cpp" />
     <ClCompile Include="evtlog.cpp" />
+    <ClCompile Include="files.cpp" />
+    <ClCompile Include="memory.cpp" />
     <ClCompile Include="mft.cpp" />
     <ClCompile Include="prefetch.cpp" />
     <ClCompile Include="registry.cpp" />
